@@ -20,5 +20,5 @@ jobs:
 
     - name: Build and push image
       run: |
-        docker build -t <dockerhub-username>/argocd-demo:latest .
-        docker push <dockerhub-username>/argocd-demo:latest
+        docker build -t sbabu116/argocd-demo:latest .
+        docker push sbabu116/argocd-demo:latest
