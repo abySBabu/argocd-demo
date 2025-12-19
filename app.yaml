@@ -32,3 +32,8 @@ spec:
   - port: 80
     targetPort: 80
     nodePort: 30080
+containers:
+- name: nginx
+  image: sbabu116/argocd-demo:latest
+  ports:
+  - containerPort: 80
